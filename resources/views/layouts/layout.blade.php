@@ -92,7 +92,7 @@ desired effect
                     <a href="#">
                       <div class="pull-left">
                         <!-- User Image -->
-                        <img src="{{asset('/dist/img/avatar5.png')}}" class="img-circle" alt="User Image">
+                        <img src="{{asset('/imagenes/images.jpg')}}" class="img-circle" alt="User Image">
                       </div>
                       <!-- Message title and timestamp -->
                       <h4>
@@ -272,7 +272,10 @@ desired effect
             <li><a href="#">Crear Reportes</a></li>
             <li><a href="#">Registrar Operarios</a></li>
             <li><a href="administrador">Mostrar Administrador</a></li>
+            <li><a href="{{url('vehiculo')}}">Vehiculos</a></li>
+            <li><a href="{{url('tarifa')}">Tarifa</a></li>
           </ul>
+          
         </li>
       </ul>
       <!-- /.sidebar-menu -->
